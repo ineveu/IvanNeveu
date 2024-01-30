@@ -1,8 +1,8 @@
 [
-    { "title": "Character Animation Reel", "url": "videos/reel_Character_IvanNeveu.mp4", "tags": ["Character animation", "reel"] },
-    { "title": "Motion Graphics Reel", "url": "videos/reel_MoGraph_IvanNeveu.mp4", "tags": ["Motion Graphics", "reel"] }
-	{ "title": "VFX and Compositing Reel", "url": "videos/reel_CompVFX_IvanNeveu.mp4", "tags": ["Compositing", "VFX", "reel"] }
-	{ "title": "Catholic Teachers Union", "url": "videos/CatholicTeachers.mp4", "tags": ["Compositing", "VFX", "Stop Motion"] }
-	{ "title": "SuperCell Builder's Hut", "url": "videos/superCell.mp4", "tags": ["Character Animation"] }
+    { "title": "Character Animation Reel", "url": "https://vimeo.com/ivanneveu/2014animationreel?share=copy", "tags": ["Character animation", "reel"] },
+    { "title": "Motion Graphics Reel", "url": "https://vimeo.com/201187557?share=copy", "tags": ["Motion Graphics", "reel"] }
+	//{ "title": "VFX and Compositing Reel", "url": "videos/reel_CompVFX_IvanNeveu.mp4", "tags": ["Compositing", "VFX", "reel"] }
+	//{ "title": "Catholic Teachers Union", "url": "videos/CatholicTeachers.mp4", "tags": ["Compositing", "VFX", "Stop Motion"] }
+	//{ "title": "SuperCell Builder's Hut", "url": "videos/superCell.mp4", "tags": ["Character Animation"] }
     // Add more videos as needed
 ]
