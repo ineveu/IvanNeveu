@@ -1,31 +1,26 @@
-document.addEventListener('DOMContentLoaded', function () {
-    fetchVideos();
-});
+const videos = [
+    { url: 'https://player.vimeo.com/video/VIDEO_ID_1', tags: ['tag1', 'tag2'] },
+    { url: 'https://player.vimeo.com/video/VIDEO_ID_2', tags: ['tag1'] },
+    // Add more videos with respective tags
+];
 
-function fetchVideos() {
-    // Assuming you have a JSON file with video data in the root of your repository
-    fetch('videos.json')
-        .then(response => response.json())
-        .then(videos => renderVideoGallery(videos))
-        .catch(error => console.error('Error fetching videos:', error));
-}
+function renderVideos(filteredVideos) {
+    const grid = document.getElementById('video-grid');
+    grid.innerHTML = '';
 
-function renderVideoGallery(videos) {
-    const gallery = document.getElementById('video-gallery');
-    gallery.innerHTML = '';
-
-    videos.forEach(video => {
-        const videoCard = document.createElement('div');
-        videoCard.className = 'video-card';
-
-        videoCard.innerHTML = `
-            <h3>${video.title}</h3>
-            <video width="100%" controls>
-                <source src="${video.url}" type="video/mp4">
-            </video>
-            <p>${video.tags.join(', ')}</p>
-        `;
-
-        gallery.appendChild(videoCard);
+    filteredVideos.forEach(video => {
+        const videoItem = document.createElement('div');
+        videoItem.classList.add('video-item');
+        videoItem.innerHTML = `<iframe src="${video.url}" frameborder="0" allowfullscreen></iframe>
+                              <div class="video-title">${video.tags.join(', ')}</div>`;
+        grid.appendChild(videoItem);
     });
 }
+
+function filterVideos(tag) {
+    const filteredVideos = tag === 'all' ? videos : videos.filter(video => video.tags.includes(tag));
+    renderVideos(filteredVideos);
+}
+
+// Initial rendering
+filterVideos('all');
