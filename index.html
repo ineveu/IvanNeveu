@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Ivan Neveu</title>
+    <title>Video Gallery</title>
 </head>
 <body>
-    <div id="video-gallery">Test</div>
+    <div id="app">
+        <div id="filter">
+            <button onclick="filterVideos('all')">All</button>
+            <button onclick="filterVideos('tag1')">Tag 1</button>
+            <button onclick="filterVideos('tag2')">Tag 2</button>
+            <!-- Add more tag buttons as needed -->
+        </div>
+        <div id="video-grid"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
