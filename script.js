@@ -1,5 +1,5 @@
 const videos = [
-    { url: 'https://youtu.be/vApPNAZneLM?si=3faGywYTMcYdWsQt', tags: ['Motion Graphics', 'Reel'] },
+    { url: 'https://youtu.be/vApPNAZneLM?si=VLe_j5WHIg_Fuf4L', tags: ['Motion Graphics', 'Reel'] },
     { url: 'https://player.vimeo.com/video/VIDEO_ID_2', tags: ['tag1'] },
     // Add more videos with respective tags
 ];
