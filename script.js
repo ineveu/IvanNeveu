@@ -1,5 +1,5 @@
 const videos = [
-    { url: 'hhttps://vimeo.com/201187557?share=copy', tags: ['Motion Graphics', 'Reel'] },
+    { url: 'https://vimeo.com/manage/videos/201187557', tags: ['Motion Graphics', 'Reel'] },
     { url: 'https://player.vimeo.com/video/VIDEO_ID_2', tags: ['tag1'] },
     // Add more videos with respective tags
 ];
