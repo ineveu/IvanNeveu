@@ -28,9 +28,9 @@ button {
     cursor: pointer;
 }
 
-.video-item img {
+.video-item iframe {
     width: 100%;
-    height: auto;
+    height: 315px; /* Adjust height as needed */
 }
 
 .video-title {
