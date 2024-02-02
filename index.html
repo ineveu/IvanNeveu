@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Video Gallery</title>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <title>Ivan Neveu</title>
 </head>
 <body>
     <div id="app">
         <div id="filter">
             <button onclick="filterVideos('all')">All</button>
-            <button onclick="filterVideos('reels')">reels</button>
+            <button onclick="filterVideos('reel')">reels</button>
+			<button onclick="filterVideos('compositing / vfx')">compositing / vfx</button>
             <button onclick="filterVideos('motion graphics')">motion graphics</button>
             <button onclick="filterVideos('character animation')">character animation</button>
             <button onclick="filterVideos('design')">design</button>
@@ -18,6 +20,12 @@
             <!-- Add more tag buttons as needed -->
         </div>
         <div id="video-grid"></div>
+        <div id="modal">
+            <div id="modal-content">
+				<button id="close-modal-btn">&times;</button>
+                <iframe id="vimeo-player" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
