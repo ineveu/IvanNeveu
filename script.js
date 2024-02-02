@@ -21,6 +21,8 @@ const videos = [
     { embedCode: '<img src="images/image-908915937.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908915937' },
     { embedCode: '<img src="images/image-908920789.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908920789' },
     { embedCode: '<img src="images/image-908922600.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908922600' },
+	{ embedCode: '<img src="images/image-909126417.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '909126417' },
+	
 
     // Add more images with respective tags and Vimeo video IDs
 ];
