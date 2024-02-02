@@ -1,6 +1,6 @@
 // List of videos with corresponding embed codes, tags, and Vimeo video IDs
 const videos = [
-    { embedCode: '<img src="../images/image-201187557.png" alt="Image 1">', tags: ['demo', 'reel', 'motion graphics'], vimeoVideoId: '201187557' },
+    { embedCode: '<img src="images/image-201187557.png" alt="Image 1">', tags: ['demo', 'reel', 'motion graphics'], vimeoVideoId: '201187557' },
     { embedCode: '<img src="images/image-90584639.png" alt="Image 2">', tags: ['demo','reel', 'character animation'], vimeoVideoId: '90584639' },
     { embedCode: '<img src="images/image-89743717.png" alt="Image 2">', tags: ['demo','reel', 'compositing / vfx'], vimeoVideoId: '89743717' },
     { embedCode: '<img src="images/image-393211584.png" alt="Image 1">', tags: ['show pitch','design', 'character animation'], vimeoVideoId: '393211584' },
