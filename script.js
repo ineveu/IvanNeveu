@@ -1,10 +1,10 @@
 // List of videos with corresponding embed codes, tags, and Vimeo video IDs
 const videos = [
-    { embedCode: '<img src="images/image-201187557.png" alt="Image 1">', tags: ['demo', 'reel', 'motion graphics'], vimeoVideoId: '201187557' },
+    { embedCode: '<img src="/images/image-201187557.png" alt="Image 1">', tags: ['demo', 'reel', 'motion graphics'], vimeoVideoId: '201187557' },
     { embedCode: '<img src="images/image-90584639.png" alt="Image 2">', tags: ['demo','reel', 'character animation'], vimeoVideoId: '90584639' },
-	{ embedCode: '<img src="images/image-89743717.png" alt="Image 2">', tags: ['demo','reel', 'compositing / vfx'], vimeoVideoId: '89743717' },
+    { embedCode: '<img src="images/image-89743717.png" alt="Image 2">', tags: ['demo','reel', 'compositing / vfx'], vimeoVideoId: '89743717' },
     { embedCode: '<img src="images/image-393211584.png" alt="Image 1">', tags: ['show pitch','design', 'character animation'], vimeoVideoId: '393211584' },
-	{ embedCode: '<img src="images/image-908917822.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908917822' },
+    { embedCode: '<img src="images/image-908917822.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908917822' },
     { embedCode: '<img src="images/image-236523917.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '236523917' },
     { embedCode: '<img src="images/image-182959783.png" alt="Image 1">', tags: ['motion graphics', 'design'], vimeoVideoId: '182959783' },
     { embedCode: '<img src="images/image-475709830.png" alt="Image 2">', tags: ['editing', 'design'], vimeoVideoId: '475709830' },
@@ -19,8 +19,8 @@ const videos = [
     { embedCode: '<img src="images/image-908475904.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908475904' },
     { embedCode: '<img src="images/image-908478390.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908478390' },
     { embedCode: '<img src="images/image-908915937.png" alt="Image 2">', tags: ['compositing / vfx'], vimeoVideoId: '908915937' },
-	{ embedCode: '<img src="images/image-908920789.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908920789' },
-	{ embedCode: '<img src="images/image-908922600.png" alt="Image 2">', tags: ['compositing / vfx'], vimeoVideoId: '908922600' },
+    { embedCode: '<img src="images/image-908920789.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908920789' },
+    { embedCode: '<img src="images/image-908922600.png" alt="Image 2">', tags: ['compositing / vfx'], vimeoVideoId: '908922600' },
 
     // Add more images with respective tags and Vimeo video IDs
 ];
