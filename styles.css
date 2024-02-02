@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #e4b749; /* Add background color */
-    padding: 2px; /* Add padding for spacing */
+    padding: 5px; /* Add padding for spacing */
 }
 
 #banner img {
@@ -37,6 +37,7 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+	border-radius: 8px; 
 }
 
 button:hover {
@@ -46,31 +47,44 @@ button:hover {
 #video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(calc(25% - 20px), 1fr));
-    gap: 20px; /* Added gap between items for spacing */
+    gap: 10px; /* Added gap between items for spacing */
+	padding: 5px 10px;
 }
 
 .video-title {
     color: black;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-}
-
-.video-item {
-    position: relative;
-    cursor: pointer;
-    width: 100%;
-    overflow: hidden; /* Ensure images don't overflow container */
-    border-radius: 8px; /* Optional: Add border radius for a rounded look */
 }
 
 .video-item img {
     width: 100%;
     height: auto; /* Maintain aspect ratio */
     transition: transform 0.3s ease-in-out; /* Optional: Add transition effect on hover */
+	border-radius: 8px; 
 }
 
 .video-item:hover img {
-    transform: scale(1.1); /* Optional: Enlarge the image on hover */
+    transform: scale(1.05); /* Optional: Enlarge the image on hover */
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4); /* Add drop shadow on hover */
+}
+
+.video-description {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.video-tags {
+    color: black;
+    padding: 2px;
+    text-align: center;
+	 font-size: 12px;
+}
+
+.video-tags strong {
+    font-weight: normal; /* Make "File under:" text regular */
 }
 
 @media (min-width: 600px) {

@@ -1,28 +1,28 @@
 // List of videos with corresponding embed codes, tags, and Vimeo video IDs
 const videos = [
-    { embedCode: '<img src="images/image-201187557.png" alt="Image 1">', tags: ['demo', 'reel', 'motion graphics'], vimeoVideoId: '201187557' },
-    { embedCode: '<img src="images/image-90584639.png" alt="Image 2">', tags: ['demo','reel', 'character animation'], vimeoVideoId: '90584639' },
-    //{ embedCode: '<img src="images/image-89743717.png" alt="Image 2">', tags: ['demo','reel', 'compositing'], vimeoVideoId: '89743717' },
-    { embedCode: '<img src="images/image-393211584.png" alt="Image 1">', tags: ['show pitch','design', 'character animation'], vimeoVideoId: '393211584' },
-    { embedCode: '<img src="images/image-908917822.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908917822' },
-    { embedCode: '<img src="images/image-236523917.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '236523917' },
-    { embedCode: '<img src="images/image-182959783.png" alt="Image 1">', tags: ['motion graphics', 'design'], vimeoVideoId: '182959783' },
-    { embedCode: '<img src="images/image-475709830.png" alt="Image 2">', tags: ['editing', 'design'], vimeoVideoId: '475709830' },
-    { embedCode: '<img src="images/image-226944712.png" alt="Image 2">', tags: ['editing', 'making of doc'], vimeoVideoId: '226944712' },
-    { embedCode: '<img src="images/image-226943813.png" alt="Image 2">', tags: ['editing', 'making of doc'], vimeoVideoId: '226943813' },
-    { embedCode: '<img src="images/image-141129446.png" alt="Image 2">', tags: ['pitch','editing', 'design'], vimeoVideoId: '141129446' },
-    { embedCode: '<img src="images/image-908465813.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908465813' },
-    { embedCode: '<img src="images/image-908468721.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908468721' },
-    { embedCode: '<img src="images/image-908470537.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908470537' },
-    { embedCode: '<img src="images/image-908471601.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908471601' },
-    { embedCode: '<img src="images/image-908473397.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908473397' },
-    { embedCode: '<img src="images/image-908475904.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908475904' },
-    { embedCode: '<img src="images/image-908478390.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908478390' },
-    { embedCode: '<img src="images/image-908915937.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908915937' },
-    { embedCode: '<img src="images/image-908920789.png" alt="Image 2">', tags: ['character animation'], vimeoVideoId: '908920789' },
-    { embedCode: '<img src="images/image-908922600.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '908922600' },
-	{ embedCode: '<img src="images/image-909126417.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '909126417' },
-	{ embedCode: '<img src="images/image-909133693.png" alt="Image 2">', tags: ['compositing'], vimeoVideoId: '909133693' },	
+    { embedCode: '<img src="images/image-201187557.png" alt="Motion Graphics Demo Reel">', description: 'Motion Graphics Reel', tags: ['reel', 'motion graphics'], vimeoVideoId: '201187557' },
+    { embedCode: '<img src="images/image-90584639.png" alt="Character Animation Demo Reel">', description: 'Character Animation Reel',tags: ['reel', 'character animation'], vimeoVideoId: '90584639' },
+    //{ embedCode: '<img src="images/image-89743717.png" alt="Comp and vfx Demo Reel">',  description: 'Compositing and VFX Reel', tags: ['reel', 'compositing'], vimeoVideoId: '89743717' },
+    { embedCode: '<img src="images/image-393211584.png" alt="Sciene Giants pitch">', description: 'Science Giants Pitch', tags: ['design', 'character animation'], vimeoVideoId: '393211584' },
+    { embedCode: '<img src="images/image-908917822.png" alt="Toronto Zoo">', description: 'Toronto Zoo Spot', tags: ['character animation'], vimeoVideoId: '908917822' },
+    { embedCode: '<img src="images/image-236523917.png" alt="Wolf Birds Motion Test">', description: 'Wolf Birds Motion Test', tags: ['character animation'], vimeoVideoId: '236523917' },
+    { embedCode: '<img src="images/image-182959783.png" alt="Halloween TVO">', description: 'TVO Halloween Bumper', tags: ['motion graphics', 'design',], vimeoVideoId: '182959783' },
+    { embedCode: '<img src="images/image-475709830.png" alt="Exsister ad">', description: 'ExSiStErS Infomercial', tags: ['editing', 'design'], vimeoVideoId: '475709830' },
+    { embedCode: '<img src="images/image-226944712.png" alt="Mini doc">', description: 'Making Of An Anaglyph Theatrical Ad',tags: ['editing',], vimeoVideoId: '226944712' },
+    { embedCode: '<img src="images/image-226943813.png" alt="Mini doc">', description: 'Making Of A Stop Motion Ad', tags: ['editing',], vimeoVideoId: '226943813' },
+    { embedCode: '<img src="images/image-141129446.png" alt="Milkshake explainer">', description: 'Foody Docuseries Explainer', tags: ['editing', 'design'], vimeoVideoId: '141129446' },
+    { embedCode: '<img src="images/image-908465813.png" alt="Beeline Telecom">', description: 'Beeline Telecom Spot', tags: ['compositing'], vimeoVideoId: '908465813' },
+    { embedCode: '<img src="images/image-908468721.png" alt="Toyota Spot">', description: 'Toyota Spot',tags: ['compositing'], vimeoVideoId: '908468721' },
+    { embedCode: '<img src="images/image-908470537.png" alt="FruitKrisps">', description: 'Christie FruitKrisps', tags: ['compositing'], vimeoVideoId: '908470537' },
+    { embedCode: '<img src="images/image-908471601.png" alt="FruitKrisps">', description: 'Christie FruitKrisps', tags: ['compositing'], vimeoVideoId: '908471601' },
+    { embedCode: '<img src="images/image-908473397.png" alt="SuperCell Dream Sequence">', description: 'SuperCell Dream Sequence', tags: ['character animation'], vimeoVideoId: '908473397' },
+    { embedCode: '<img src="images/image-908475904.png" alt="Starbucks Episode">', description: 'Starbucks Xmas miniseries', tags: ['character animation'], vimeoVideoId: '908475904' },
+    { embedCode: '<img src="images/image-908478390.png" alt="SmashBar">', description: 'Quaker SmashBar', tags: ['character animation'], vimeoVideoId: '908478390' },
+    { embedCode: '<img src="images/image-908915937.png" alt="Catholic Teachers">', description: 'Catholic Teachers Union', tags: ['compositing'], vimeoVideoId: '908915937' },
+    { embedCode: '<img src="images/image-908920789.png" alt="SVS Glasses">', description: 'SVS Glasses Spot', tags: ['character animation'], vimeoVideoId: '908920789' },
+    { embedCode: '<img src="images/image-908922600.png" alt="Honeycomb">', description: 'Honeycomb Spots', tags: ['compositing'], vimeoVideoId: '908922600' },
+	{ embedCode: '<img src="images/image-909126417.png" alt="BIAG">', description: 'BIAG Spot', tags: ['compositing', 'motion graphics'], vimeoVideoId: '909126417' },
+	{ embedCode: '<img src="images/image-909133693.png" alt="I dunno what this would be called">', description: 'In My Dreams...Thing', tags: ['compositing', 'motion graphics'], vimeoVideoId: '909133693' },	
 
     // Add more images with respective tags and Vimeo video IDs
 ];
@@ -35,8 +35,11 @@ function renderVideos(filteredVideos) {
     filteredVideos.forEach(video => {
         const videoItem = document.createElement('div');
         videoItem.classList.add('video-item');
-        videoItem.innerHTML = `${video.embedCode}
-                              <div class="video-title">${video.tags.join(', ')}</div>`;
+        videoItem.innerHTML = `
+            ${video.embedCode}
+            <div class="video-description">${video.description}</div>
+            <div class="video-tags"> ${video.tags.join(', ')}</div>
+        `;
         grid.appendChild(videoItem);
 
         // Add click event to each video item to open the corresponding Vimeo video
