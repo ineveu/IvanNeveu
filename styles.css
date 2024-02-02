@@ -4,6 +4,20 @@ body {
     padding: 0;
 }
 
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4b749; /* Add background color */
+    padding: 2px; /* Add padding for spacing */
+}
+
+#banner img {
+    max-width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
 #app {
     max-width: 100%;
     margin: 20px auto;
