@@ -23,6 +23,7 @@ const videos = [
     { embedCode: '<img src="images/image-908922600.png" alt="Honeycomb">', description: 'Honeycomb Spots', tags: ['compositing'], vimeoVideoId: '908922600' },
 	{ embedCode: '<img src="images/image-909126417.png" alt="BIAG">', description: 'BIAG Spot', tags: ['compositing', 'motion graphics'], vimeoVideoId: '909126417' },
 	{ embedCode: '<img src="images/image-909133693.png" alt="I dunno what this would be called">', description: 'In My Dreams...Thing', tags: ['compositing', 'motion graphics'], vimeoVideoId: '909133693' },	
+	{ embedCode: '<img src="images/image-909191925.png" alt="Lays Chips ad">', description: 'Lays Chips', tags: ['compositing',], vimeoVideoId: '909191925' },	
 
     // Add more images with respective tags and Vimeo video IDs
 ];
