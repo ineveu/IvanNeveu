@@ -18,6 +18,14 @@ body {
     cursor: pointer;
 }
 
+#banner-email img {
+    max-width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
+
+
 #overlay-container {
     position: relative;
 	
@@ -66,7 +74,7 @@ button:hover {
 
 /* Add this style for the active state of the button */
 button:focus {
-    background-color: #008dff; /* Change to your desired active color */
+    background-color: #a4853b; /* Change to your desired active color */
     outline: none; /* Remove the default focus outline (optional) */
 }
 
