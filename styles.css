@@ -9,13 +9,29 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #e4b749; /* Add background color */
-    padding: 5px; /* Add padding for spacing */
+
 }
 
 #banner img {
     max-width: 100%; /* Make the images responsive */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
+}
+
+#overlay-container {
+    position: relative;
+	
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+	padding: 5px; /* Add padding for spacing */
 }
 
 #app {
@@ -25,6 +41,9 @@ body {
 
 #filter {
     margin-bottom: 20px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 button {
@@ -38,6 +57,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 	border-radius: 8px; 
+	
 }
 
 button:hover {
@@ -55,6 +75,20 @@ button:focus {
     grid-template-columns: repeat(auto-fill, minmax(calc(25% - 20px), 1fr));
     gap: 10px; /* Added gap between items for spacing */
 	padding: 5px 10px;
+}
+
+#overlay-container {
+    display: flex;
+    justify-content: space-between; /* Spread out letters equally on the x-axis */
+    background-color: #e4b749; /* Yellow background color */
+    padding: 5px;
+}
+
+.letter {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 4vw; /* Responsive font size */
+    font-weight: bold;
+	transform: scaleX(1.65); /* Adjust the value to stretch or compress the letters */
 }
 
 .video-title {
