@@ -2,7 +2,7 @@
 const videos = [
     { embedCode: '<img src="images/image-201187557.png" alt="Motion Graphics Demo Reel">', description: 'Motion Graphics Reel', tags: ['reel', 'motion graphics'], vimeoVideoId: '201187557' },
     { embedCode: '<img src="images/image-90584639.png" alt="Character Animation Demo Reel">', description: 'Character Animation Reel',tags: ['reel', 'character animation'], vimeoVideoId: '90584639' },
-	{ embedCode: '<img src="images/image-89743717.png" alt="Comp and vfx Demo Reel">',  description: 'Compositing / VFX Reel pwrd:compreel', tags: ['reel', 'compositing', 'vfx'], vimeoVideoId: '89743717' },
+	{ embedCode: '<img src="images/image-89743717.png" alt="Comp and vfx Demo Reel">',  description: 'Compositing / VFX Reel (pwrd:compreel)', tags: ['reel', 'compositing', 'vfx'], vimeoVideoId: '89743717' },
     { embedCode: '<img src="images/image-393211584.png" alt="Sciene Giants pitch">', description: 'Science Giants Pitch', tags: ['design', 'character animation', 'vfx'], vimeoVideoId: '393211584' },
     { embedCode: '<img src="images/image-908917822.png" alt="Toronto Zoo">', description: 'Toronto Zoo Spot', tags: ['character animation'], vimeoVideoId: '908917822' },
     { embedCode: '<img src="images/image-236523917.png" alt="Wolf Birds Motion Test">', description: 'Wolf Birds Motion Test', tags: ['character animation'], vimeoVideoId: '236523917' },
